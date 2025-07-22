@@ -14,6 +14,7 @@ INSERT INTO user_roles (id, name, description, permissions, is_active) VALUES
 
 -- =============================================
 -- Insert Sample Areas (Lokasi di Indonesia)
+-- Note: manager_id akan diupdate setelah users diinsert untuk menghindari circular dependency
 -- =============================================
 
 INSERT INTO areas (id, name, code, description, location, coordinates, total_area, soil_type, climate_zone, is_active) VALUES
